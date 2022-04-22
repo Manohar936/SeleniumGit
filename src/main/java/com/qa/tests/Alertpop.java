@@ -34,6 +34,8 @@ WebDriver driver;
 			System.out.println("In correct username");
 		}
 		al.accept();
+		
+		driver.quit();
 	
 	}
 
